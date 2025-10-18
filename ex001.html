@@ -4,28 +4,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexible Box</title>
-    <link rel="stylesheet" href="style2.css">
+    <Style>@charset "UTf-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font: normal 16px Arial, Helvetica, sans-serif;
+    background-color: rgb(95, 202, 219);
+    background-image: linear-gradient(to right, #f1d8c9, #f2c3a4);
+    border-radius: 15px;
+    
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    border-radius: 7px;
+    padding: 7px;
+    margin: auto;
+    box-shadow: 2px 2px 7px rgba(143, 191, 66, 0.624)  ;
+    
+}
+
+p{
+    text-align: justify;
+    
+    
+
+}
+
+p {
+    text-indent: 30px; /* recuo de 30 pixels na primeira linha */
+}
+
+
+h1{
+    color: #f39209;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    border-radius: 7px;
+
+}
+h1#principal{
+    color: rgb(193, 226, 7);
+    background-color: rgb(159, 93, 235);
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 0px 2px 7px rgb(49, 197, 220);
+    
+
+}
+
+h2 {
+    color: rgb(243, 243, 10);
+    background-color: rgb(159, 93, 235);
+    border-radius: 7px;
+    text-align: center;
+}
+h3 {
+    color: rgb(78, 10, 237);
+    border-radius: 7px;
+}
+p{
+    color: rgba(7, 71, 232, 0.886);
+}
+
+p {
+    text-align: justify;
+}
+p.intro {
+    font-style: italic;
+    color: rgb(178, 27, 220);
+    
+}
+h3{
+    color:  rgb(78, 10, 237);
+}
+
+a {
+    color: rgb(246, 25, 25);
+    text-decoration: none;
+}
+a:link {
+  color: blue; /* cor padrão do link */
+}
+
+a:visited {
+  color:  rgb(255, 0, 238);/* cor depois de clicado */
+  
+}
+
+a:hover {
+  color: rgb(130, 28, 146); /* cor quando passa o mouse */
+}
+
+a:active {
+  color: rgb(255, 0, 238); /* cor no momento do clique */
+}
+    </Style>
   
 </head>
 <body>
-    <h1>Flexbox</h1>
-    <div class="flex-pai">
-        <div>1</div> 
-        <div>2</div> 
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
-        
-        <!--<div class="item">1</div> 
-        <div class="item">2</div> 
-        <div class="item">3</div>--> 
-        <!--<div class="item">4</div>
-        <div class="item">5</div>
-        <div class="item">6</div>
-        <div class="item">7</div>-->
-    </div>
+    <main>
+
+    <h1>Criando Sites com HTML e CSS</h1>
+
+    <h1 id="principal">Aprendendo HTML</h1>
+
+    <h2>HTML Básico</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum odio repellat incidunt voluptatem blanditiis alias omnis vero, voluptas est rem aliquam maiores eveniet impedit corporis facere harum ex aliquid recusandae?</p>
+
+    <h2>HTML Intermediario</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum odio repellat incidunt voluptatem blanditiis alias omnis vero, voluptas est rem aliquam maiores eveniet impedit corporis facere harum ex aliquid recusandae?</p>
+
+    <h2>HTML Avançado</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum odio repellat incidunt voluptatem blanditiis alias omnis vero, voluptas est rem aliquam maiores eveniet impedit corporis facere harum ex aliquid recusandae?</p>
+
+    <h1 id="principal">Aprendendo CSS</h1>
+
+    <h2>CSS Básico</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum odio repellat incidunt voluptatem blanditiis alias omnis vero, voluptas est rem aliquam maiores eveniet impedit corporis facere harum ex aliquid recusandae?</p>
+
+    <h2>CSS Intermediario</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum odio repellat incidunt voluptatem blanditiis alias omnis vero, voluptas est rem aliquam maiores eveniet impedit corporis facere harum ex aliquid recusandae?</p>
+
+    <h2>CSS Avançado</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum odio repellat incidunt voluptatem blanditiis alias omnis vero, voluptas est rem aliquam maiores eveniet impedit corporis facere harum ex aliquid recusandae?</p>
+
+    </main>
     <script>
         var nome = parseInt(window.prompt("qual é o seu nome?"));
         var idade = parseInt(window.prompt("qual é a sua idade?"));
