@@ -140,10 +140,10 @@ a:active {
 
     </main>
     <script>
-        var nome = parseInt(window.prompt("qual é o seu nome?"));
-        var idade = parseInt(window.prompt("qual é a sua idade?"));
-        var peso = parseInt(window.prompt("qual é o seu peso?"));
-        var ano = parseInt(window.prompt("qual é o ano atual?"));
+        var nome = Number(window.prompt("qual é o seu nome?"));
+        var idade = Number(window.prompt("qual é a sua idade?"));
+        var peso = Number(window.prompt("qual é o seu peso?"));
+        var ano = Number(window.prompt("qual é o ano atual?"));
         var nasc = ano - idade;
         window.alert("Olá, é um prazer te conheçer " + nome + ", você tem " + idade + " anos e pesa " + peso + " kg" + ". Você nasceu em " + nasc + ".");
         </script>
