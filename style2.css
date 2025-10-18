@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.flex-pai {
+    display: flex;
+    background: rgb(95, 202, 219);
+    
+}
+.flex-pai div {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    background: white;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    
+
+    
+
+
+}
+h1{    color: rgb(243, 243, 10);
+    background-color: rgb(159, 93, 235);
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 0px 3px 7px rgb(48, 32, 226);
+}
